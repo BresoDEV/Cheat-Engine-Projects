@@ -1,0 +1,2022 @@
+object CETrainer: TTrainerForm
+  Left = 759
+  Height = 460
+  Top = 266
+  Width = 250
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'CETrainer'
+  ClientHeight = 460
+  ClientWidth = 250
+  Color = clBlack
+  OnClose = CloseClick
+  OnCreate = CETrainer_FormCreate
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  object Titulo: TCEPanel
+    Left = 0
+    Height = 60
+    Top = 0
+    Width = 250
+    BevelColor = clBackground
+    Caption = 'Breso Base V3'
+    Color = 16744448
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -24
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    OnClick = CETrainer_TituloClick
+  end
+  object Opcao_1_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 60
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+    OnClick = CETrainer_Opcao_1_Menu_PrincipalClick
+  end
+  object Opcao_2_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 100
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 2'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    OnClick = CETrainer_Opcao_2_Menu_PrincipalClick
+  end
+  object Opcao_3_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 140
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 3'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+    OnClick = CETrainer_Opcao_3_Menu_PrincipalClick
+  end
+  object Opcao_4_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 180
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 4'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+    OnClick = CETrainer_Opcao_4_Menu_PrincipalClick
+  end
+  object Opcao_5_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 220
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 5'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+    OnClick = CETrainer_Opcao_5_Menu_PrincipalClick
+  end
+  object Opcao_6_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 260
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 6'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 6
+    OnClick = CETrainer_Opcao_6_Menu_PrincipalClick
+  end
+  object Opcao_7_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 300
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 7'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 7
+    OnClick = CETrainer_Opcao_7_Menu_PrincipalClick
+  end
+  object Opcao_8_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 340
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 8'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 8
+    OnClick = CETrainer_Opcao_8_Menu_PrincipalClick
+  end
+  object Opcao_9_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 380
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 9'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 9
+    OnClick = CETrainer_Opcao_9_Menu_PrincipalClick
+  end
+  object Opcao_10_Menu_Principal: TCEPanel
+    Left = 0
+    Height = 40
+    Top = 420
+    Width = 250
+    Alignment = taLeftJustify
+    BevelColor = clWhite
+    Caption = '     Opcao 10'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 10
+    OnClick = CETrainer_Opcao_10_Menu_PrincipalClick
+  end
+  object SubMenu_1: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 11
+    Visible = False
+    OnClick = CETrainer_SubMenu_1Click
+    object Opcao_SubMenu_1: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_2: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_3: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_4: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_5: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_6: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_7: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_8: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_9: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_10: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 1 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_2: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 12
+    Visible = False
+    OnClick = CETrainer_SubMenu_2Click
+    object Opcao_SubMenu_11: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_12: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_13: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_14: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_15: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_16: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_17: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_18: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_19: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_20: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 2 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_3: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 13
+    Visible = False
+    object Opcao_SubMenu_21: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_22: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_23: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_24: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_25: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_26: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_27: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_28: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_29: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_30: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 3 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_4: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 14
+    Visible = False
+    object Opcao_SubMenu_31: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_32: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_33: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_34: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_35: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_36: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_37: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_38: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_39: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_40: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 4 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_5: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 15
+    Visible = False
+    object Opcao_SubMenu_41: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_42: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_43: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_44: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_45: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_46: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_47: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_48: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_49: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_50: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 5 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_6: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 16
+    Visible = False
+    object Opcao_SubMenu_51: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_52: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_53: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_54: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_55: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_56: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_57: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_58: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_59: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_60: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 6 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_7: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 17
+    Visible = False
+    object Opcao_SubMenu_61: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_62: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_63: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_64: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_65: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_66: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_67: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_68: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_69: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_70: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 7 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_8: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 18
+    Visible = False
+    object Opcao_SubMenu_71: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_72: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_73: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_74: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_75: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_76: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_77: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_78: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_79: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_80: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 8 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_9: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 19
+    Visible = False
+    object Opcao_SubMenu_81: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_82: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_83: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_84: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_85: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_86: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_87: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_88: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_89: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_90: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 9 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object SubMenu_10: TCEGroupBox
+    Left = 254
+    Height = 448
+    Top = 6
+    Width = 188
+    ClientHeight = 423
+    ClientWidth = 184
+    TabOrder = 20
+    Visible = False
+    object Opcao_SubMenu_91: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 1'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Opcao_SubMenu_92: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 40
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 2'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Opcao_SubMenu_93: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 80
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 3'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Opcao_SubMenu_94: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 120
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 4'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 3
+    end
+    object Opcao_SubMenu_95: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 160
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 5'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 4
+    end
+    object Opcao_SubMenu_96: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 200
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 6'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 5
+    end
+    object Opcao_SubMenu_97: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 240
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 7'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Opcao_SubMenu_98: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 280
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 8'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 7
+    end
+    object Opcao_SubMenu_99: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 320
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 9'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 8
+    end
+    object Opcao_SubMenu_100: TCEPanel
+      Left = 0
+      Height = 40
+      Top = 360
+      Width = 184
+      Alignment = taLeftJustify
+      BevelColor = clWhite
+      Caption = '     Sub 10 Opcao 10'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentFont = False
+      TabOrder = 9
+    end
+  end
+  object CETimer1: TCETimer
+    Enabled = False
+    Interval = 1
+    OnStartTimer = CETrainer_CETimer1StartTimer
+  end
+end
